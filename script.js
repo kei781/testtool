@@ -2,7 +2,7 @@ import http from 'k6/http'
 
 
 export let options = {
-  vus: 3000,
+  vus: 2500,
   duration: '10s'
 }
 export default function () {
